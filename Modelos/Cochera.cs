@@ -6,7 +6,7 @@
 
         public string NomCochera  { get; set; }
 
-        public string EstadoCoch { get; set; }
-
+        // Cochera 1 a 1 Estado
+        public Estado Id { get; set; }
     }
 }

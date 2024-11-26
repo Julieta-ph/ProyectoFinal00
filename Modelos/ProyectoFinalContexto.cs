@@ -31,6 +31,7 @@ namespace ProyectoFinal00.Modelos
 
         public DbSet<Domicilio> Domicilios { get; set; }
 
+        public DbSet<Estado> Estados { get; set; }
 
     }
         

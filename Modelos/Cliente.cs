@@ -3,7 +3,6 @@
     public class Cliente
     {
         public string Id { get; set; }
-        public string EstadoCliente { get; set; }
         public string Observacion { get; set; }
         public string TipoCliente { get; set; }
         public double CantDeReservas { get; set; }
@@ -22,6 +21,9 @@
         // Cliente 1 a M Vehiculo
         public string VehiculoId { get; set; }
         public Vehiculo Vehiculo { get; set; }
+
+        // Cliente a estado
+        public Estado Id { get; set; }
 
     }
 }

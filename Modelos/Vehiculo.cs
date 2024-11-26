@@ -10,8 +10,6 @@
 
         public string MarcaVehiculo { get; set; }
 
-        public string EstadoVehiculo { get; set; }
-
 
 
         // Cliente 1 a M Vehiculo
@@ -22,5 +20,9 @@
         {
             Clientes = clientes;
         }
+
+        // Vehiculo 1 a 1 Estado
+        public Estado Id { get; set; }
+
     }
 }

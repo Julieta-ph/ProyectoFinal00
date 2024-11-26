@@ -23,7 +23,8 @@
         // Persona 1 a 1 Usuario
         public Usuario Id { get; set; }
 
-
+        // persona 1 a 1 Estado
+        public Estado Id { get; set; }
 
     }
 }
